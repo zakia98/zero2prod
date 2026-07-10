@@ -1,0 +1,6 @@
+### GET request to hello world endpoint
+GET http://localhost:3000
+
+### Get request to a hello world endpoint with a name parameter
+GET http://localhost:3000/Ameen
+
