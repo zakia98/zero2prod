@@ -1,6 +1,10 @@
+
 ### GET request to hello world endpoint
-GET http://localhost:3000
+GET http://localhost:8000/health
 
-### Get request to a hello world endpoint with a name parameter
-GET http://localhost:3000/Ameen
+###
 
+POST http://127.0.0.1:8000/subscriptions
+Content-Type: application/x-www-form-urlencoded
+
+name=Ameen&email=ameen4@test.com
